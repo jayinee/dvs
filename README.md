@@ -1,6 +1,3 @@
-# dvs
-
-dashboard1.html
 <!-- fullCalendar 2.2.5 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
 <script src="../plugins/fullcalendar/fullcalendar.min.js"></script>
@@ -42,18 +39,8 @@ dashboard1.html
             <!-- /. box -->
         </div>
     </div>
-    <div class="info-box-content">
-        <span class="info-box-text">Events</span>
-        <span class="info-box-number">41,410</span>
-        <div class="progress">
-            <div class="progress-bar" style="width: 70%"></div>
-        </div>
-        <span class="progress-description">
-            70% Increase in 30 Days
-        </span>
-    </div>
+    
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -73,36 +60,30 @@ dashboard1.html
                                         </div>
                                         <!-- /.info-box-content -->
                                     </div>
-
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="form-group">
+                                        <div>
+                                            <ul>
+                                                <li>
+                                                    <span><i class="fa fa-user"></i>Client names</span>
+                                                    <span>antriksh</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <label>Company Name ........................ BizTech Solution</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Client Name ......................... Divyesh Panchal</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Contact no</label>
+                                    </div>
                                 </div>
-          <div class="col-lg-6 col-sm-12">
-        <div class="form-group">
-            <div>
-                <ul>
-                    <li>
-                        <span><i class="fa fa-user"></i>Client names</span>
-                         <span>antriksh</span>
-                         
-                    </li>
-                   
-                </ul>
-            </div>
-            <label>Company Name ........................ BizTech Solution</label>
-        </div>
-        <div class="form-group">
-            <label>Client Name ......................... Divyesh Panchal</label>
-
-        </div>
-        <div class="form-group">
-            <label>Email</label>
-
-        </div>
-        <div class="form-group">
-            <label>Contact no</label>
-
-
-        </div>
-                            </div>
+                                </div>
+          
                             </div>
                       </div>
                    </div>
@@ -114,7 +95,7 @@ dashboard1.html
                 
           </div>
             </div>
-                </div>
+                
 </section>
 <script>
     $(function () {
